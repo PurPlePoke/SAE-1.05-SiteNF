@@ -1,0 +1,142 @@
+body {
+    font-size: .875rem;
+  }
+  
+/* Styles pour le logo */
+.logo-x-small {
+    padding-left: 30px;
+    width: 100%;
+    max-width: 75px;
+}
+
+/* Styles de base pour le HTML */
+html {
+    background-color: #727061; /* Couleur de fond de la page */
+    color: white; /* Couleur de base du texte */
+    font-family: Arial, sans-serif; /* Police de caractère */
+}
+
+/* Styles pour le tableau */
+table {
+    width: 82%; /* Le tableau utilise toute la largeur disponible */
+    border-collapse: collapse; /* Les bordures des cellules sont collées les unes aux autres */
+    margin-top: 20px; /* Espace au-dessus du tableau pour le header */
+    table-layout: fixed; /* Fixe la disposition du tableau */
+    margin-left: 9%;
+}
+
+/* Styles pour les cellules du tableau */
+th, td {
+    padding: 10px; /* Espacement à l'intérieur des cellules */
+    border-bottom: 1px solid white; /* Bordure inférieure blanche pour chaque cellule */
+}
+
+/* Bordure supérieure blanche pour la première rangée de l'en-tête */
+thead th {
+    border-top: 1px solid white; /* Bordure supérieure blanche */
+}
+
+/* Styles pour les en-têtes du tableau */
+th {
+    background-color: #5e574e; /* Couleur de fond pour les en-têtes du tableau */
+}
+
+/* Styles pour les lignes de données */
+tr {
+    background-color: #727061; /* Couleur de fond pour les lignes de données */
+}
+
+/* Styles spécifiques pour les cellules "VENUE" */
+.venue-cell {
+    border-right: 1px solid #5e574e; /* Bordure droite pour séparer "VENUE" de "CITY" */
+}
+
+/* Styles spécifiques pour les cellules "CITY" */
+.city-cell {
+    border-left: none; /* Pas de bordure gauche pour séparer "CITY" de "VENUE" */
+}
+
+/* Styles pour les cellules "TICKETS" avec boutons */
+.tickets-cell {
+    padding: 0; /* Retirer le padding pour les cellules avec boutons */
+}
+
+/* Styles pour les boutons dans les cellules "TICKETS" */
+.button-style {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+}
+
+.button-style:hover { background-color: #3e8e41 }
+
+.button-style:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+/* Styles pour un bouton désactivé ou "SOLD OUT" */
+.button.sold-out {
+    background-color: #3e3a34; /* Couleur de fond pour les boutons "SOLD OUT" */
+}
+
+/* Styles pour la navigation */
+.nav-container {
+    width: 80%;
+    text-align: center;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5%;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    font-size: 175%;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 20px; /* Ajustement selon vos besoins */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white; /* Couleur du texte */
+}
+
+/* Styles additionnels pour les liens de navigation */
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.right-align{
+    text-align: right;
+}
+.left-align{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+
+.bubbles{
+    font-family: Rubik Bubbles;
+    color: white;
+    font-size: xx-large;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

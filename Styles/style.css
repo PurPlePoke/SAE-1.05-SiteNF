@@ -1,0 +1,197 @@
+HTML {
+    background-color: #727061;
+  
+}
+
+body{
+    padding-bottom: 20%;
+}
+
+.logo-x-small {
+    padding-left: 30px;
+    width: 100%;
+    max-width: 75px;
+}
+
+#wfu{
+    width: 100%;
+}
+
+.nav-container {
+    width: 80%;
+    text-align: center;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5%;
+}
+
+.nav-list, #heure {
+    list-style: none;
+    padding: 0;
+    font-size: 175%;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 20px; /* Ajustez selon vos besoins */
+}
+
+.nav-list li a, #heure, p {
+    text-decoration: none;
+    color: white; /* Couleur du texte */
+}
+
+
+/* Styles additionnels pour enlever le soulignement et autres effets sur les liens */
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#heure {
+    display: inline-flex;
+    width: fit-content;    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-left: 20px; /* Ajustez selon vos besoins */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000; /* Couleur du texte */
+}
+
+/* Styles pour le logo */
+
+.InfosGenerale{
+    padding-top: 10%;
+    padding-left: 20%;
+    font-size: xx-large;
+}
+
+.centre{
+    
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.champ{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 3%;
+
+}
+
+.bubbles{
+    font-family: Rubik Bubbles;
+    color: white;
+    font-size: xx-large;
+}
+
+#silkscreen{
+    font-family: Silkscreen;
+}
+
+.py-terminal{
+    width: 10%;
+    size: 10em;
+    opacity: 30%;
+}
+
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -60px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* styles spécifiques pour le contenu après le chargement */
+.content {
+    display: none; /* ou utilisez d'autres styles selon vos besoins */
+}
+
+p > a {
+    color: #cfcdbc;
+}
+
+.citation{
+    color: #572d1a;
+}
+
+#photo{
+    text-align: center;
+    opacity: 75%;
+}
+
+iframe {
+    width: 1700;
+    height: 160;
+}
+
+.champ iframe {
+    width: 100%; /* This will make the iframe take the full width of its container */
+    border: none;
+  }
+
+  .champ2{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 3%;
+
+}
+
+.champ3{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 3%;
+
+}
+
+.champ2 iframe {
+    width: 49.8%; /* This will make the iframe take the full width of its container */
+    border: none;
+  }
+
+.champ3 iframe {
+  width: 33%; /* This will make the iframe take the full width of its container */
+  border: none;
+}

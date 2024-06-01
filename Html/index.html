@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NF - Unofficial Website</title>
+
+    <link rel="icon" href="./Ressources/site_NF.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/loader.css">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    
+</head>
+
+<body>
+    <div id="whenLoading">
+        <img id="imageLoading" src="../Ressources/site_NF.png" alt="Logo de NF">
+    </div>
+    <header>
+        <nav>
+            <img src="https://www.nfrealmusic.com/files/2019/05/NF-Logo-Square-150x150.png" alt="NF Square Logo" class=" logo-x-small">
+            <div class="nav-container">
+                <ul class="nav-list">
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./discographie.html">Discographie</a></li>
+                    <li><a href="./biographie.html">Biographie</a></li>
+                    <li><a href="./concert.html">Concert</a></li>
+                </ul>
+            </div>
+            <div id="heure">--:--:--</div>
+        </nav>
+    </header>
+    
+    <img id="wfu" src="https://www.nfrealmusic.com/files/2023/02/nfreal-desktop-image.-compressed.jpg" alt="photo de couverture du dernier album de NF">
+
+    <!-- Informations générale du groupe (nom, genre musical, labels, site, membres, années actives) -->
+    <div class="InfosGenerale" id="silkscreen">
+        <p>
+            <strong>Nom :</strong>
+            NF
+        </p>
+        <p>
+            <strong>Genre musical :</strong>
+            rap américain-hip-hop rap conscient
+        </p>
+        <p>
+            <strong>Labels :</strong>
+            <a href="https://www.universalmusic.com/label/capitol-music-group/">Capitol CMGXistNF Real Music LLC</a>
+        </p>
+        <p>
+            <strong>Site :</strong>
+            <a href="http://www.nfrealmusic.com/#/home">NF - Official Website </a>
+        </p>
+        <p>
+            <strong>Membre :</strong>
+            NF 
+        </p>
+        <p>
+            <strong>Années actives :</strong>
+            2010 - Maintenant (13 ans)
+        </p>
+    </div>
+
+        <py-script>
+        def message():
+            return
+        print("Ceci est un script python")
+    </py-script>
+ 
+    <script src="../Scripts/heure.js"></script>
+    <script src="../Scripts/loader.js"></script>
+</body>
+</html>
